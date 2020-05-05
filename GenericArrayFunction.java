@@ -13,8 +13,7 @@ public class GenericArrayFunction {
                 );
     }
 
-    static <T> T getMiddle (T[] m)
-    {
+    static <T> T getMiddle (T[] m) {
         return m[m.length/2];
     }
 }
