@@ -11,6 +11,7 @@ public class DemoGenerics {
         Gener<String> ekz1 = new Gener<>("qwerty");
         System.out.println(ekz1.getField());
         Gener<Integer> ekz2 = new Gener<>(10);
+        System.out.println(ekz2.getField());
     }
 }
 
